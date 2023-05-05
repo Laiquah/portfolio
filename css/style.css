@@ -1,0 +1,41 @@
+.lovely{
+    /* padding-left: 200px; */
+    width: 500px;
+}
+
+.con{
+    background-color: black;
+}
+
+.div{
+    display: inline-block;
+    border: 5px solid black;
+    font-size: large;
+    font-family: sans-serif;
+    animation-name: land;
+    animation-duration: 5s;
+    animation-direction: normal;
+    animation-fill-mode: forwards;
+}
+
+@keyframes land{
+    0% {
+        background-color: black;
+        color: white;
+        left: 0;
+    }
+
+    50% {
+        background-color: grey;
+        color: black;
+        /* left: 50%; */
+    }
+
+    100% {
+        background-color: white;
+        color: black;
+        left: 75%;
+    }
+
+}
+
